@@ -26,7 +26,8 @@
     <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
     <link rel="stylesheet" type="text/css" href="/css/matery.css">
     <link rel="stylesheet" type="text/css" href="/css/my.css">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
     <script src="/libs/jquery/jquery.min.js"></script>
 
 <meta name="generator" content="Hexo 7.3.0"></head>
@@ -464,8 +465,11 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><img src="/pic.jpg" alt="picture"></p>
-<h2 id="推荐曲目：红尘客栈"><a href="#推荐曲目：红尘客栈" class="headerlink" title="推荐曲目：红尘客栈"></a>推荐曲目：红尘客栈</h2><p><audio src="/HCKZ.mp3" controls></audio><br><video src="/HCKZ.mp4" controls width="600"></video></p>
+                <h1 id="测试功能用（图片、音频、视频）"><a href="#测试功能用（图片、音频、视频）" class="headerlink" title="测试功能用（图片、音频、视频）"></a>测试功能用（图片、音频、视频）</h1><span id="more"></span>
+<h2 id="测试插入图片"><a href="#测试插入图片" class="headerlink" title="测试插入图片"></a>测试插入图片</h2><img src="/images/cover.jpg" alt="测试图片" style="width:60%; display:block; margin:auto;">
+
+<h2 id="测试插入音乐：红尘客栈"><a href="#测试插入音乐：红尘客栈" class="headerlink" title="测试插入音乐：红尘客栈"></a>测试插入音乐：红尘客栈</h2><p><audio src="/music/HCKZ.mp3" controls></audio></p>
+<h2 id="测试插入视频：红尘客栈"><a href="#测试插入视频：红尘客栈" class="headerlink" title="测试插入视频：红尘客栈"></a>测试插入视频：红尘客栈</h2><p><video src="/HCKZ.mp4" controls width="600"></video></p>
 
                 
             </div>
@@ -697,30 +701,29 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2025/11/22/%E6%88%91%E7%9A%84%E6%96%B0%E6%96%87%E7%AB%A0/">
+                <a href="/2025/12/01/aplayer-test/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="我的新文章">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="TEST music list">
                         
-                        <span class="card-title">我的新文章</span>
+                        <span class="card-title">TEST music list</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            这是一个测试插入音乐列表的文章
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2025-11-22
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2025-12-01
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -729,7 +732,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>
@@ -744,15 +746,15 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="postTEST1">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="TEST1">
                         
-                        <span class="card-title">postTEST1</span>
+                        <span class="card-title">TEST1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            测试1
                         
                     </div>
                     <div class="publish-info">
@@ -762,10 +764,18 @@
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            Evan Hunt
+                            yiwen
                             
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/MUSIC/">
+                        <span class="chip bg-color">MUSIC</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -899,60 +909,6 @@
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-    
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
@@ -1022,6 +978,8 @@
 </footer>
 
 <div class="progress-bar"></div>
+<script src="/libs/aplayer/APlayer.min.js"></script>
+
 
 
     <!-- 搜索遮罩框 -->
